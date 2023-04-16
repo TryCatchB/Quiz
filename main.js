@@ -48,9 +48,6 @@ function clearPage() {
 }
 
 function showQuestion() {
-  questions[questionIndex]["question"];
-  questions[questionIndex]["answers"];
-
   const headerTemplate = `<h2 class="title">%title%</h2>`;
   const title = headerTemplate.replace(
     "%title%",
